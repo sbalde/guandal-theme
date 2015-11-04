@@ -1,0 +1,1043 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/edx/app/edxapp/themes/ionisx',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-contrib-less',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-bless',
+6 verbose install     'grunt-jscs',
+6 verbose install     'time-grunt',
+6 verbose install     'load-grunt-tasks' ] ]
+7 info preinstall edx-theme@
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping grunt-contrib-less@1.0.1 /edx/app/edxapp/themes/ionisx
+10 verbose cache add [ 'grunt-contrib-watch@0.6.1', null ]
+11 verbose cache add name=undefined spec="grunt-contrib-watch@0.6.1" args=["grunt-contrib-watch@0.6.1",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt-contrib-watch@0.6.1',
+12 verbose parsed url   path: 'grunt-contrib-watch@0.6.1',
+12 verbose parsed url   href: 'grunt-contrib-watch@0.6.1' }
+13 verbose cache add [ 'grunt-contrib-jshint@0.11.2', null ]
+14 verbose cache add name=undefined spec="grunt-contrib-jshint@0.11.2" args=["grunt-contrib-jshint@0.11.2",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'grunt-contrib-jshint@0.11.2',
+15 verbose parsed url   path: 'grunt-contrib-jshint@0.11.2',
+15 verbose parsed url   href: 'grunt-contrib-jshint@0.11.2' }
+16 verbose cache add [ 'grunt-contrib-cssmin@0.12.2', null ]
+17 verbose cache add name=undefined spec="grunt-contrib-cssmin@0.12.2" args=["grunt-contrib-cssmin@0.12.2",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'grunt-contrib-cssmin@0.12.2',
+18 verbose parsed url   path: 'grunt-contrib-cssmin@0.12.2',
+18 verbose parsed url   href: 'grunt-contrib-cssmin@0.12.2' }
+19 verbose cache add name="grunt-contrib-watch" spec="0.6.1" args=["grunt-contrib-watch","0.6.1"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '0.6.1',
+20 verbose parsed url   path: '0.6.1',
+20 verbose parsed url   href: '0.6.1' }
+21 verbose addNamed [ 'grunt-contrib-watch', '0.6.1' ]
+22 verbose addNamed [ '0.6.1', '0.6.1' ]
+23 verbose cache add name="grunt-contrib-jshint" spec="0.11.2" args=["grunt-contrib-jshint","0.11.2"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '0.11.2',
+24 verbose parsed url   path: '0.11.2',
+24 verbose parsed url   href: '0.11.2' }
+25 verbose addNamed [ 'grunt-contrib-jshint', '0.11.2' ]
+26 verbose addNamed [ '0.11.2', '0.11.2' ]
+27 verbose cache add [ 'grunt-contrib-imagemin@0.9.4', null ]
+28 verbose cache add name=undefined spec="grunt-contrib-imagemin@0.9.4" args=["grunt-contrib-imagemin@0.9.4",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'grunt-contrib-imagemin@0.9.4',
+29 verbose parsed url   path: 'grunt-contrib-imagemin@0.9.4',
+29 verbose parsed url   href: 'grunt-contrib-imagemin@0.9.4' }
+30 verbose already installed skipping grunt-contrib-copy@0.8.0 /edx/app/edxapp/themes/ionisx
+31 verbose cache add name="grunt-contrib-cssmin" spec="0.12.2" args=["grunt-contrib-cssmin","0.12.2"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '0.12.2',
+32 verbose parsed url   path: '0.12.2',
+32 verbose parsed url   href: '0.12.2' }
+33 verbose addNamed [ 'grunt-contrib-cssmin', '0.12.2' ]
+34 verbose addNamed [ '0.12.2', '0.12.2' ]
+35 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+36 verbose lock grunt-contrib-watch@0.6.1 /home/vagrant/.npm/08049756-grunt-contrib-watch-0-6-1.lock
+37 silly lockFile 53316110-grunt-contrib-jshint-0-11-2 grunt-contrib-jshint@0.11.2
+38 verbose lock grunt-contrib-jshint@0.11.2 /home/vagrant/.npm/53316110-grunt-contrib-jshint-0-11-2.lock
+39 silly lockFile 703e7501-grunt-contrib-cssmin-0-12-2 grunt-contrib-cssmin@0.12.2
+40 verbose lock grunt-contrib-cssmin@0.12.2 /home/vagrant/.npm/703e7501-grunt-contrib-cssmin-0-12-2.lock
+41 verbose cache add [ 'grunt-autoprefixer@3.0.0', null ]
+42 verbose cache add name=undefined spec="grunt-autoprefixer@3.0.0" args=["grunt-autoprefixer@3.0.0",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'grunt-autoprefixer@3.0.0',
+43 verbose parsed url   path: 'grunt-autoprefixer@3.0.0',
+43 verbose parsed url   href: 'grunt-autoprefixer@3.0.0' }
+44 verbose cache add name="grunt-contrib-imagemin" spec="0.9.4" args=["grunt-contrib-imagemin","0.9.4"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '0.9.4',
+45 verbose parsed url   path: '0.9.4',
+45 verbose parsed url   href: '0.9.4' }
+46 verbose addNamed [ 'grunt-contrib-imagemin', '0.9.4' ]
+47 verbose addNamed [ '0.9.4', '0.9.4' ]
+48 silly lockFile 24151d45-grunt-contrib-imagemin-0-9-4 grunt-contrib-imagemin@0.9.4
+49 verbose lock grunt-contrib-imagemin@0.9.4 /home/vagrant/.npm/24151d45-grunt-contrib-imagemin-0-9-4.lock
+50 verbose already installed skipping grunt-bless@0.2.0 /edx/app/edxapp/themes/ionisx
+51 verbose cache add name="grunt-autoprefixer" spec="3.0.0" args=["grunt-autoprefixer","3.0.0"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '3.0.0',
+52 verbose parsed url   path: '3.0.0',
+52 verbose parsed url   href: '3.0.0' }
+53 verbose addNamed [ 'grunt-autoprefixer', '3.0.0' ]
+54 verbose addNamed [ '3.0.0', '3.0.0' ]
+55 silly lockFile bbbd6667-grunt-autoprefixer-3-0-0 grunt-autoprefixer@3.0.0
+56 verbose lock grunt-autoprefixer@3.0.0 /home/vagrant/.npm/bbbd6667-grunt-autoprefixer-3-0-0.lock
+57 verbose cache add [ 'grunt-jscs@1.6.0', null ]
+58 verbose cache add name=undefined spec="grunt-jscs@1.6.0" args=["grunt-jscs@1.6.0",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'grunt-jscs@1.6.0',
+59 verbose parsed url   path: 'grunt-jscs@1.6.0',
+59 verbose parsed url   href: 'grunt-jscs@1.6.0' }
+60 verbose already installed skipping time-grunt@1.1.1 /edx/app/edxapp/themes/ionisx
+61 verbose cache add [ 'load-grunt-tasks@3.1.0', null ]
+62 verbose cache add name=undefined spec="load-grunt-tasks@3.1.0" args=["load-grunt-tasks@3.1.0",null]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'load-grunt-tasks@3.1.0',
+63 verbose parsed url   path: 'load-grunt-tasks@3.1.0',
+63 verbose parsed url   href: 'load-grunt-tasks@3.1.0' }
+64 verbose cache add name="grunt-jscs" spec="1.6.0" args=["grunt-jscs","1.6.0"]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: '1.6.0',
+65 verbose parsed url   path: '1.6.0',
+65 verbose parsed url   href: '1.6.0' }
+66 verbose addNamed [ 'grunt-jscs', '1.6.0' ]
+67 verbose addNamed [ '1.6.0', '1.6.0' ]
+68 silly lockFile 86398e33-grunt-jscs-1-6-0 grunt-jscs@1.6.0
+69 verbose lock grunt-jscs@1.6.0 /home/vagrant/.npm/86398e33-grunt-jscs-1-6-0.lock
+70 verbose cache add [ 'grunt@0.4.5', null ]
+71 verbose cache add name=undefined spec="grunt@0.4.5" args=["grunt@0.4.5",null]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'grunt@0.4.5',
+72 verbose parsed url   path: 'grunt@0.4.5',
+72 verbose parsed url   href: 'grunt@0.4.5' }
+73 verbose cache add name="load-grunt-tasks" spec="3.1.0" args=["load-grunt-tasks","3.1.0"]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '3.1.0',
+74 verbose parsed url   path: '3.1.0',
+74 verbose parsed url   href: '3.1.0' }
+75 verbose addNamed [ 'load-grunt-tasks', '3.1.0' ]
+76 verbose addNamed [ '3.1.0', '3.1.0' ]
+77 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+78 verbose lock load-grunt-tasks@3.1.0 /home/vagrant/.npm/afccba54-load-grunt-tasks-3-1-0.lock
+79 verbose cache add name="grunt" spec="0.4.5" args=["grunt","0.4.5"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '0.4.5',
+80 verbose parsed url   path: '0.4.5',
+80 verbose parsed url   href: '0.4.5' }
+81 verbose addNamed [ 'grunt', '0.4.5' ]
+82 verbose addNamed [ '0.4.5', '0.4.5' ]
+83 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+84 verbose lock grunt@0.4.5 /home/vagrant/.npm/81abf7ad-grunt-0-4-5.lock
+85 verbose request where is /grunt-contrib-watch
+86 verbose request registry https://registry.npmjs.org/
+87 verbose request id 6053d94c7212daaa
+88 verbose url raw /grunt-contrib-watch
+89 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+90 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+91 verbose request where is https://registry.npmjs.org/grunt-contrib-watch
+92 info trying registry request attempt 1 at 22:08:23
+93 verbose etag "EHAJ5CSKB73KS8PH48VGJOSUB"
+94 http GET https://registry.npmjs.org/grunt-contrib-watch
+95 verbose request where is /grunt-contrib-jshint
+96 verbose request registry https://registry.npmjs.org/
+97 verbose url raw /grunt-contrib-jshint
+98 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+99 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+100 verbose request where is https://registry.npmjs.org/grunt-contrib-jshint
+101 info trying registry request attempt 1 at 22:08:23
+102 verbose etag "3JF4MCCXZXJZO9ESO2HJR6H8F"
+103 http GET https://registry.npmjs.org/grunt-contrib-jshint
+104 verbose request where is /grunt-contrib-cssmin
+105 verbose request registry https://registry.npmjs.org/
+106 verbose url raw /grunt-contrib-cssmin
+107 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+108 verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+109 verbose request where is https://registry.npmjs.org/grunt-contrib-cssmin
+110 info trying registry request attempt 1 at 22:08:23
+111 verbose etag "ACZQHDOXH74RTVJDFPXZNE6TK"
+112 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+113 verbose request where is /grunt-contrib-imagemin
+114 verbose request registry https://registry.npmjs.org/
+115 verbose url raw /grunt-contrib-imagemin
+116 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+117 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+118 verbose request where is https://registry.npmjs.org/grunt-contrib-imagemin
+119 info trying registry request attempt 1 at 22:08:23
+120 verbose etag "C9BGV982U033KZVOTJU0L92P7"
+121 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+122 verbose request where is /grunt-autoprefixer
+123 verbose request registry https://registry.npmjs.org/
+124 verbose url raw /grunt-autoprefixer
+125 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+126 verbose url resolved https://registry.npmjs.org/grunt-autoprefixer
+127 verbose request where is https://registry.npmjs.org/grunt-autoprefixer
+128 info trying registry request attempt 1 at 22:08:23
+129 verbose etag "7H8SZF1RKL48P6ELTYARQS6NN"
+130 http GET https://registry.npmjs.org/grunt-autoprefixer
+131 verbose request where is /grunt-jscs
+132 verbose request registry https://registry.npmjs.org/
+133 verbose url raw /grunt-jscs
+134 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jscs' ]
+135 verbose url resolved https://registry.npmjs.org/grunt-jscs
+136 verbose request where is https://registry.npmjs.org/grunt-jscs
+137 info trying registry request attempt 1 at 22:08:24
+138 verbose etag "35T800J56CJ8GVA9BUC0SVU2D"
+139 http GET https://registry.npmjs.org/grunt-jscs
+140 verbose request where is /load-grunt-tasks
+141 verbose request registry https://registry.npmjs.org/
+142 verbose url raw /load-grunt-tasks
+143 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+144 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+145 verbose request where is https://registry.npmjs.org/load-grunt-tasks
+146 info trying registry request attempt 1 at 22:08:24
+147 verbose etag "6VMZ5B7CMXFJSLCEDECG18HXW"
+148 http GET https://registry.npmjs.org/load-grunt-tasks
+149 verbose request where is /grunt
+150 verbose request registry https://registry.npmjs.org/
+151 verbose url raw /grunt
+152 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+153 verbose url resolved https://registry.npmjs.org/grunt
+154 verbose request where is https://registry.npmjs.org/grunt
+155 info trying registry request attempt 1 at 22:08:24
+156 verbose etag "7JH8QY12QE5VJWNOEHW9M3ZEH"
+157 http GET https://registry.npmjs.org/grunt
+158 http 304 https://registry.npmjs.org/grunt-contrib-cssmin
+159 silly registry.get cb [ 304,
+159 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+159 silly registry.get     via: '1.1 varnish',
+159 silly registry.get     'cache-control': 'max-age=60',
+159 silly registry.get     etag: '"ACZQHDOXH74RTVJDFPXZNE6TK"',
+159 silly registry.get     age: '9',
+159 silly registry.get     connection: 'keep-alive',
+159 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+159 silly registry.get     'x-cache': 'HIT',
+159 silly registry.get     'x-cache-hits': '1',
+159 silly registry.get     'x-timer': 'S1440194904.494661,VS0,VE0',
+159 silly registry.get     vary: 'Accept' } ]
+160 verbose etag https://registry.npmjs.org/grunt-contrib-cssmin from cache
+161 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+162 silly registry.get cb [ 304,
+162 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+162 silly registry.get     via: '1.1 varnish',
+162 silly registry.get     'cache-control': 'max-age=60',
+162 silly registry.get     etag: '"C9BGV982U033KZVOTJU0L92P7"',
+162 silly registry.get     age: '48',
+162 silly registry.get     connection: 'keep-alive',
+162 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+162 silly registry.get     'x-cache': 'HIT',
+162 silly registry.get     'x-cache-hits': '1',
+162 silly registry.get     'x-timer': 'S1440194904.507516,VS0,VE0',
+162 silly registry.get     vary: 'Accept' } ]
+163 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+164 http 304 https://registry.npmjs.org/grunt-autoprefixer
+165 silly registry.get cb [ 304,
+165 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+165 silly registry.get     via: '1.1 varnish',
+165 silly registry.get     'cache-control': 'max-age=60',
+165 silly registry.get     etag: '"7H8SZF1RKL48P6ELTYARQS6NN"',
+165 silly registry.get     age: '55',
+165 silly registry.get     connection: 'keep-alive',
+165 silly registry.get     'x-served-by': 'cache-fra1246-FRA',
+165 silly registry.get     'x-cache': 'HIT',
+165 silly registry.get     'x-cache-hits': '1',
+165 silly registry.get     'x-timer': 'S1440194904.513098,VS0,VE0',
+165 silly registry.get     vary: 'Accept' } ]
+166 verbose etag https://registry.npmjs.org/grunt-autoprefixer from cache
+167 silly lockFile 703e7501-grunt-contrib-cssmin-0-12-2 grunt-contrib-cssmin@0.12.2
+168 silly lockFile 703e7501-grunt-contrib-cssmin-0-12-2 grunt-contrib-cssmin@0.12.2
+169 silly lockFile 24151d45-grunt-contrib-imagemin-0-9-4 grunt-contrib-imagemin@0.9.4
+170 silly lockFile 24151d45-grunt-contrib-imagemin-0-9-4 grunt-contrib-imagemin@0.9.4
+171 silly lockFile bbbd6667-grunt-autoprefixer-3-0-0 grunt-autoprefixer@3.0.0
+172 silly lockFile bbbd6667-grunt-autoprefixer-3-0-0 grunt-autoprefixer@3.0.0
+173 http 304 https://registry.npmjs.org/grunt
+174 silly registry.get cb [ 304,
+174 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     'cache-control': 'max-age=60',
+174 silly registry.get     etag: '"7JH8QY12QE5VJWNOEHW9M3ZEH"',
+174 silly registry.get     age: '9',
+174 silly registry.get     connection: 'keep-alive',
+174 silly registry.get     'x-served-by': 'cache-fra1246-FRA',
+174 silly registry.get     'x-cache': 'HIT',
+174 silly registry.get     'x-cache-hits': '1',
+174 silly registry.get     'x-timer': 'S1440194904.559224,VS0,VE1',
+174 silly registry.get     vary: 'Accept' } ]
+175 verbose etag https://registry.npmjs.org/grunt from cache
+176 http 304 https://registry.npmjs.org/grunt-jscs
+177 silly registry.get cb [ 304,
+177 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+177 silly registry.get     via: '1.1 varnish',
+177 silly registry.get     'cache-control': 'max-age=60',
+177 silly registry.get     etag: '"35T800J56CJ8GVA9BUC0SVU2D"',
+177 silly registry.get     age: '55',
+177 silly registry.get     connection: 'keep-alive',
+177 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+177 silly registry.get     'x-cache': 'HIT',
+177 silly registry.get     'x-cache-hits': '1',
+177 silly registry.get     'x-timer': 'S1440194904.559602,VS0,VE0',
+177 silly registry.get     vary: 'Accept' } ]
+178 verbose etag https://registry.npmjs.org/grunt-jscs from cache
+179 http 304 https://registry.npmjs.org/load-grunt-tasks
+180 silly registry.get cb [ 304,
+180 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+180 silly registry.get     via: '1.1 varnish',
+180 silly registry.get     'cache-control': 'max-age=60',
+180 silly registry.get     etag: '"6VMZ5B7CMXFJSLCEDECG18HXW"',
+180 silly registry.get     age: '55',
+180 silly registry.get     connection: 'keep-alive',
+180 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+180 silly registry.get     'x-cache': 'HIT',
+180 silly registry.get     'x-cache-hits': '1',
+180 silly registry.get     'x-timer': 'S1440194904.560118,VS0,VE0',
+180 silly registry.get     vary: 'Accept' } ]
+181 verbose etag https://registry.npmjs.org/load-grunt-tasks from cache
+182 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+183 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+184 silly lockFile 86398e33-grunt-jscs-1-6-0 grunt-jscs@1.6.0
+185 silly lockFile 86398e33-grunt-jscs-1-6-0 grunt-jscs@1.6.0
+186 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+187 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+188 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+189 silly registry.get cb [ 304,
+189 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+189 silly registry.get     via: '1.1 varnish',
+189 silly registry.get     'cache-control': 'max-age=60',
+189 silly registry.get     etag: '"3JF4MCCXZXJZO9ESO2HJR6H8F"',
+189 silly registry.get     age: '0',
+189 silly registry.get     connection: 'keep-alive',
+189 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+189 silly registry.get     'x-cache': 'HIT',
+189 silly registry.get     'x-cache-hits': '1',
+189 silly registry.get     'x-timer': 'S1440194904.494939,VS0,VE98',
+189 silly registry.get     vary: 'Accept' } ]
+190 verbose etag https://registry.npmjs.org/grunt-contrib-jshint from cache
+191 http 304 https://registry.npmjs.org/grunt-contrib-watch
+192 silly registry.get cb [ 304,
+192 silly registry.get   { date: 'Fri, 21 Aug 2015 22:08:24 GMT',
+192 silly registry.get     via: '1.1 varnish',
+192 silly registry.get     'cache-control': 'max-age=60',
+192 silly registry.get     etag: '"EHAJ5CSKB73KS8PH48VGJOSUB"',
+192 silly registry.get     age: '0',
+192 silly registry.get     connection: 'keep-alive',
+192 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+192 silly registry.get     'x-cache': 'HIT',
+192 silly registry.get     'x-cache-hits': '1',
+192 silly registry.get     'x-timer': 'S1440194904.493718,VS0,VE104',
+192 silly registry.get     vary: 'Accept' } ]
+193 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+194 silly lockFile 53316110-grunt-contrib-jshint-0-11-2 grunt-contrib-jshint@0.11.2
+195 silly lockFile 53316110-grunt-contrib-jshint-0-11-2 grunt-contrib-jshint@0.11.2
+196 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+197 silly lockFile 08049756-grunt-contrib-watch-0-6-1 grunt-contrib-watch@0.6.1
+198 silly resolved [ { name: 'grunt-contrib-cssmin',
+198 silly resolved     description: 'Minify CSS',
+198 silly resolved     version: '0.12.2',
+198 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/gruntjs/grunt-contrib-cssmin' },
+198 silly resolved     licenses: [ [Object] ],
+198 silly resolved     engines: { node: '>=0.10.0' },
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     dependencies: { chalk: '^0.5.1', 'clean-css': '^3.0.1', maxmin: '^1.0.0' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '^0.4.5',
+198 silly resolved        'grunt-cli': '^0.1.13',
+198 silly resolved        'grunt-contrib-clean': '^0.6.0',
+198 silly resolved        'grunt-contrib-internal': '^0.4.6',
+198 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+198 silly resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+198 silly resolved     peerDependencies: { grunt: '>=0.4.0' },
+198 silly resolved     keywords:
+198 silly resolved      [ 'gruntplugin',
+198 silly resolved        'cssmin',
+198 silly resolved        'css',
+198 silly resolved        'style',
+198 silly resolved        'styles',
+198 silly resolved        'stylesheet',
+198 silly resolved        'minify',
+198 silly resolved        'compress' ],
+198 silly resolved     files: [ 'tasks' ],
+198 silly resolved     appveyor_id: 'ntgfqc3ppk533m84',
+198 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+198 silly resolved     gitHead: '459dea32d0fc2b575424d6f9a296b5cad8d229b6',
+198 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-cssmin/issues' },
+198 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-cssmin',
+198 silly resolved     _id: 'grunt-contrib-cssmin@0.12.2',
+198 silly resolved     _shasum: '254957427abdf63cd18f0690d34c0083fb544cff',
+198 silly resolved     _from: 'grunt-contrib-cssmin@0.12.2',
+198 silly resolved     _npmVersion: '2.5.1',
+198 silly resolved     _nodeVersion: '0.12.0',
+198 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+198 silly resolved     maintainers:
+198 silly resolved      [ [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: '254957427abdf63cd18f0690d34c0083fb544cff',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.2.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.2.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt-contrib-imagemin',
+198 silly resolved     description: 'Minify images',
+198 silly resolved     version: '0.9.4',
+198 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/gruntjs/grunt-contrib-imagemin' },
+198 silly resolved     licenses: [ [Object] ],
+198 silly resolved     engines: { node: '>=0.10.0' },
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     dependencies:
+198 silly resolved      { async: '^0.9.0',
+198 silly resolved        chalk: '^1.0.0',
+198 silly resolved        'gulp-rename': '^1.2.0',
+198 silly resolved        imagemin: '^3.1.0',
+198 silly resolved        'pretty-bytes': '^1.0.1' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '^0.4.5',
+198 silly resolved        'grunt-cli': '^0.1.13',
+198 silly resolved        'grunt-contrib-clean': '^0.6.0',
+198 silly resolved        'grunt-contrib-internal': '^0.4.10',
+198 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+198 silly resolved        'grunt-contrib-nodeunit': '^0.4.1',
+198 silly resolved        'time-grunt': '^1.1.0' },
+198 silly resolved     peerDependencies: { grunt: '>=0.4.0' },
+198 silly resolved     keywords:
+198 silly resolved      [ 'gruntplugin',
+198 silly resolved        'compress',
+198 silly resolved        'gif',
+198 silly resolved        'image',
+198 silly resolved        'img',
+198 silly resolved        'jpeg',
+198 silly resolved        'jpg',
+198 silly resolved        'minify',
+198 silly resolved        'png',
+198 silly resolved        'svg' ],
+198 silly resolved     files: [ 'tasks' ],
+198 silly resolved     appveyor_id: '7w491e6edsuanreu',
+198 silly resolved     contributors:
+198 silly resolved      [ [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object] ],
+198 silly resolved     gitHead: 'c4157e74e646e66ef3ba647a1d7e1f9964aa5804',
+198 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+198 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+198 silly resolved     _id: 'grunt-contrib-imagemin@0.9.4',
+198 silly resolved     _shasum: 'dba724b0b8978facedec1e0c6235f2253006c1fa',
+198 silly resolved     _from: 'grunt-contrib-imagemin@0.9.4',
+198 silly resolved     _npmVersion: '2.7.0',
+198 silly resolved     _nodeVersion: '1.5.0',
+198 silly resolved     _npmUser: { name: 'kevva', email: 'kevinmartensson@gmail.com' },
+198 silly resolved     maintainers:
+198 silly resolved      [ [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: 'dba724b0b8978facedec1e0c6235f2253006c1fa',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.9.4.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.9.4.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt-autoprefixer',
+198 silly resolved     version: '3.0.0',
+198 silly resolved     description: 'Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.',
+198 silly resolved     author: { name: 'Dmitry Nikitenko', email: 'dima.nikitenko@gmail.com' },
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/nDmitry/grunt-autoprefixer' },
+198 silly resolved     license: 'MIT',
+198 silly resolved     engines: { node: '>= 0.10.0' },
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     keywords: [ 'gruntplugin', 'css', 'postprocessor', 'prefix', 'autoprefixer' ],
+198 silly resolved     files: [ 'tasks', 'LICENSE' ],
+198 silly resolved     dependencies:
+198 silly resolved      { 'autoprefixer-core': '^5.1.7',
+198 silly resolved        diff: '~1.3.0',
+198 silly resolved        chalk: '~1.0.0' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '~0.4.4',
+198 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+198 silly resolved        'grunt-contrib-clean': '~0.6.0',
+198 silly resolved        'grunt-contrib-nodeunit': '~0.4.0',
+198 silly resolved        'grunt-contrib-copy': '~0.7.0',
+198 silly resolved        'load-grunt-tasks': '~2.0.0',
+198 silly resolved        'time-grunt': '~1.0.0' },
+198 silly resolved     peerDependencies: { grunt: '~0.4.2' },
+198 silly resolved     gitHead: '6f8dfe8840c48a394da478c553eb4748c4ffc79b',
+198 silly resolved     bugs: { url: 'https://github.com/nDmitry/grunt-autoprefixer/issues' },
+198 silly resolved     homepage: 'https://github.com/nDmitry/grunt-autoprefixer',
+198 silly resolved     _id: 'grunt-autoprefixer@3.0.0',
+198 silly resolved     _shasum: 'df61b662f06c4bfd93cf659ef6d706faf0153755',
+198 silly resolved     _from: 'grunt-autoprefixer@3.0.0',
+198 silly resolved     _npmVersion: '2.7.4',
+198 silly resolved     _nodeVersion: '0.10.38',
+198 silly resolved     _npmUser: { name: 'weiss', email: 'dima.nikitenko@gmail.com' },
+198 silly resolved     maintainers: [ [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: 'df61b662f06c4bfd93cf659ef6d706faf0153755',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-3.0.0.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-3.0.0.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt',
+198 silly resolved     description: 'The JavaScript Task Runner',
+198 silly resolved     version: '0.4.5',
+198 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+198 silly resolved     homepage: 'http://gruntjs.com/',
+198 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+198 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+198 silly resolved     licenses: [ [Object] ],
+198 silly resolved     main: 'lib/grunt',
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     engines: { node: '>= 0.8.0' },
+198 silly resolved     keywords:
+198 silly resolved      [ 'task',
+198 silly resolved        'async',
+198 silly resolved        'cli',
+198 silly resolved        'minify',
+198 silly resolved        'uglify',
+198 silly resolved        'build',
+198 silly resolved        'lodash',
+198 silly resolved        'unit',
+198 silly resolved        'test',
+198 silly resolved        'qunit',
+198 silly resolved        'nodeunit',
+198 silly resolved        'server',
+198 silly resolved        'init',
+198 silly resolved        'scaffold',
+198 silly resolved        'make',
+198 silly resolved        'jake',
+198 silly resolved        'tool' ],
+198 silly resolved     dependencies:
+198 silly resolved      { async: '~0.1.22',
+198 silly resolved        'coffee-script': '~1.3.3',
+198 silly resolved        colors: '~0.6.2',
+198 silly resolved        dateformat: '1.0.2-1.2.3',
+198 silly resolved        eventemitter2: '~0.4.13',
+198 silly resolved        'findup-sync': '~0.1.2',
+198 silly resolved        glob: '~3.1.21',
+198 silly resolved        hooker: '~0.2.3',
+198 silly resolved        'iconv-lite': '~0.2.11',
+198 silly resolved        minimatch: '~0.2.12',
+198 silly resolved        nopt: '~1.0.10',
+198 silly resolved        rimraf: '~2.2.8',
+198 silly resolved        lodash: '~0.9.2',
+198 silly resolved        'underscore.string': '~2.2.1',
+198 silly resolved        which: '~1.0.5',
+198 silly resolved        'js-yaml': '~2.0.5',
+198 silly resolved        exit: '~0.1.1',
+198 silly resolved        getobject: '~0.1.0',
+198 silly resolved        'grunt-legacy-util': '~0.2.0',
+198 silly resolved        'grunt-legacy-log': '~0.1.0' },
+198 silly resolved     devDependencies:
+198 silly resolved      { temporary: '~0.0.4',
+198 silly resolved        'grunt-contrib-jshint': '~0.6.4',
+198 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+198 silly resolved        'grunt-contrib-watch': '~0.5.3',
+198 silly resolved        difflet: '~0.2.3',
+198 silly resolved        semver: '2.1.0',
+198 silly resolved        shelljs: '~0.2.5' },
+198 silly resolved     _id: 'grunt@0.4.5',
+198 silly resolved     dist:
+198 silly resolved      { shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz' },
+198 silly resolved     _from: 'grunt@0.4.5',
+198 silly resolved     _npmVersion: '1.4.4',
+198 silly resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+198 silly resolved     maintainers: [ [Object], [Object] ],
+198 silly resolved     directories: {},
+198 silly resolved     _shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt-jscs',
+198 silly resolved     description: 'Grunt task for checking JavaScript Code Style with jscs.',
+198 silly resolved     version: '1.6.0',
+198 silly resolved     author: { name: 'Gustavo Henke', email: 'gustavo@injoin.com.br' },
+198 silly resolved     license: 'MIT',
+198 silly resolved     homepage: 'https://github.com/jscs-dev/grunt-jscs',
+198 silly resolved     contributors: [ [Object] ],
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/jscs-dev/grunt-jscs.git' },
+198 silly resolved     bugs: { url: 'https://github.com/jscs-dev/grunt-jscs/issues' },
+198 silly resolved     dependencies:
+198 silly resolved      { hooker: '~0.2.3',
+198 silly resolved        jscs: '~1.12.0',
+198 silly resolved        lodash: '~2.4.1',
+198 silly resolved        vow: '~0.4.1' },
+198 silly resolved     devDependencies:
+198 silly resolved      { 'grunt-bump': '~0.0.13',
+198 silly resolved        'grunt-cli': '~0.1.13',
+198 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+198 silly resolved        'grunt-contrib-nodeunit': '~0.4.0',
+198 silly resolved        'load-grunt-tasks': '~1.0.0',
+198 silly resolved        'time-grunt': '~1.0.0' },
+198 silly resolved     peerDependencies: { grunt: '~0.4.2' },
+198 silly resolved     keywords: [ 'gruntplugin', 'jscs', 'code style', 'checker' ],
+198 silly resolved     engines: { node: '>= 0.10.0' },
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+198 silly resolved     gitHead: 'bb98fca2c6184e4cc9963cdab7e4f2613701a38f',
+198 silly resolved     _id: 'grunt-jscs@1.6.0',
+198 silly resolved     _shasum: '85aeb8a01edec98f16219e2b8c26c1f8f8accf86',
+198 silly resolved     _from: 'grunt-jscs@1.6.0',
+198 silly resolved     _npmVersion: '1.4.28',
+198 silly resolved     _npmUser: { name: 'gustavohenke', email: 'gustavo@injoin.io' },
+198 silly resolved     maintainers: [ [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: '85aeb8a01edec98f16219e2b8c26c1f8f8accf86',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-jscs/-/grunt-jscs-1.6.0.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-jscs/-/grunt-jscs-1.6.0.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'load-grunt-tasks',
+198 silly resolved     version: '3.1.0',
+198 silly resolved     description: 'Load multiple grunt tasks using globbing patterns',
+198 silly resolved     keywords:
+198 silly resolved      [ 'grunt',
+198 silly resolved        'load',
+198 silly resolved        'require',
+198 silly resolved        'tasks',
+198 silly resolved        'glob',
+198 silly resolved        'pattern',
+198 silly resolved        'match',
+198 silly resolved        'matchdep',
+198 silly resolved        'dependencies' ],
+198 silly resolved     license: 'MIT',
+198 silly resolved     author:
+198 silly resolved      { name: 'Sindre Sorhus',
+198 silly resolved        email: 'sindresorhus@gmail.com',
+198 silly resolved        url: 'sindresorhus.com' },
+198 silly resolved     files: [ 'index.js' ],
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/sindresorhus/load-grunt-tasks' },
+198 silly resolved     scripts: { test: 'grunt' },
+198 silly resolved     dependencies: { 'findup-sync': '^0.2.1', multimatch: '^2.0.0' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '^0.4.2',
+198 silly resolved        'grunt-cli': '^0.1.13',
+198 silly resolved        'grunt-svgmin': '^2.0.0' },
+198 silly resolved     engines: { node: '>=0.10.0' },
+198 silly resolved     gitHead: 'a15f001bb04e63cb4915860eac2ee76741d85cf2',
+198 silly resolved     bugs: { url: 'https://github.com/sindresorhus/load-grunt-tasks/issues' },
+198 silly resolved     homepage: 'https://github.com/sindresorhus/load-grunt-tasks',
+198 silly resolved     _id: 'load-grunt-tasks@3.1.0',
+198 silly resolved     _shasum: 'f59e7a83413e2e872591c7777ffdc18a3709da20',
+198 silly resolved     _from: 'load-grunt-tasks@3.1.0',
+198 silly resolved     _npmVersion: '1.4.28',
+198 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+198 silly resolved     maintainers: [ [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: 'f59e7a83413e2e872591c7777ffdc18a3709da20',
+198 silly resolved        tarball: 'http://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.1.0.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.1.0.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt-contrib-jshint',
+198 silly resolved     description: 'Validate files with JSHint.',
+198 silly resolved     version: '0.11.2',
+198 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'https://github.com/gruntjs/grunt-contrib-jshint' },
+198 silly resolved     licenses: [ [Object] ],
+198 silly resolved     engines: { node: '>=0.10.0' },
+198 silly resolved     scripts: { test: 'grunt test' },
+198 silly resolved     dependencies: { hooker: '^0.2.3', jshint: '^2.6.0' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '^0.4.5',
+198 silly resolved        'grunt-cli': '^0.1.13',
+198 silly resolved        'grunt-contrib-internal': '^0.4.12',
+198 silly resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+198 silly resolved     peerDependencies: { grunt: '>=0.4.0' },
+198 silly resolved     keywords: [ 'gruntplugin' ],
+198 silly resolved     files: [ 'tasks' ],
+198 silly resolved     appveyor_id: 'j04ik7qgx21ixyfw',
+198 silly resolved     contributors:
+198 silly resolved      [ [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object],
+198 silly resolved        [Object] ],
+198 silly resolved     gitHead: '56713d4b3f223d24c82edab7c8b5729b73e5d848',
+198 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+198 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+198 silly resolved     _id: 'grunt-contrib-jshint@0.11.2',
+198 silly resolved     _shasum: 'a7e000427bb007848c1099264860c0485b4741d3',
+198 silly resolved     _from: 'grunt-contrib-jshint@0.11.2',
+198 silly resolved     _npmVersion: '2.7.4',
+198 silly resolved     _nodeVersion: '0.12.2',
+198 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+198 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+198 silly resolved     dist:
+198 silly resolved      { shasum: 'a7e000427bb007848c1099264860c0485b4741d3',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.11.2.tgz' },
+198 silly resolved     directories: {},
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.11.2.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' },
+198 silly resolved   { name: 'grunt-contrib-watch',
+198 silly resolved     description: 'Run predefined tasks whenever watched file patterns are added, changed or deleted.',
+198 silly resolved     version: '0.6.1',
+198 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-watch',
+198 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+198 silly resolved     repository:
+198 silly resolved      { type: 'git',
+198 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-watch.git' },
+198 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-watch/issues' },
+198 silly resolved     licenses: [ [Object] ],
+198 silly resolved     engines: { node: '>= 0.8.0' },
+198 silly resolved     scripts: { test: 'grunt nodeunit -v' },
+198 silly resolved     dependencies:
+198 silly resolved      { gaze: '~0.5.1',
+198 silly resolved        'tiny-lr-fork': '0.0.5',
+198 silly resolved        lodash: '~2.4.1',
+198 silly resolved        async: '~0.2.9' },
+198 silly resolved     devDependencies:
+198 silly resolved      { grunt: '~0.4.0',
+198 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+198 silly resolved        'grunt-contrib-nodeunit': '~0.3.3',
+198 silly resolved        'grunt-contrib-internal': '~0.4.7',
+198 silly resolved        'underscore.string': '~2.3.3' },
+198 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+198 silly resolved     keywords: [ 'gruntplugin', 'watch' ],
+198 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+198 silly resolved     _id: 'grunt-contrib-watch@0.6.1',
+198 silly resolved     dist:
+198 silly resolved      { shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+198 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz' },
+198 silly resolved     _from: 'grunt-contrib-watch@0.6.1',
+198 silly resolved     _npmVersion: '1.4.4',
+198 silly resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+198 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+198 silly resolved     directories: {},
+198 silly resolved     _shasum: '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15',
+198 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz',
+198 silly resolved     readme: 'ERROR: No README data found!' } ]
+199 info install grunt-contrib-cssmin@0.12.2 into /edx/app/edxapp/themes/ionisx
+200 info install grunt-contrib-imagemin@0.9.4 into /edx/app/edxapp/themes/ionisx
+201 info install grunt-autoprefixer@3.0.0 into /edx/app/edxapp/themes/ionisx
+202 info install grunt@0.4.5 into /edx/app/edxapp/themes/ionisx
+203 info install grunt-jscs@1.6.0 into /edx/app/edxapp/themes/ionisx
+204 info install load-grunt-tasks@3.1.0 into /edx/app/edxapp/themes/ionisx
+205 info install grunt-contrib-jshint@0.11.2 into /edx/app/edxapp/themes/ionisx
+206 info install grunt-contrib-watch@0.6.1 into /edx/app/edxapp/themes/ionisx
+207 info installOne grunt-contrib-cssmin@0.12.2
+208 info installOne grunt-contrib-imagemin@0.9.4
+209 info installOne grunt-autoprefixer@3.0.0
+210 info installOne grunt@0.4.5
+211 info installOne grunt-jscs@1.6.0
+212 info installOne load-grunt-tasks@3.1.0
+213 info installOne grunt-contrib-jshint@0.11.2
+214 info installOne grunt-contrib-watch@0.6.1
+215 verbose node_modules/grunt-contrib-cssmin unbuild
+216 verbose node_modules/grunt-contrib-imagemin unbuild
+217 verbose node_modules/grunt-autoprefixer unbuild
+218 verbose node_modules/grunt unbuild
+219 verbose node_modules/grunt-jscs unbuild
+220 verbose node_modules/load-grunt-tasks unbuild
+221 verbose node_modules/grunt-contrib-jshint unbuild
+222 verbose node_modules/grunt-contrib-watch unbuild
+223 verbose tar unpack /home/vagrant/.npm/grunt-contrib-cssmin/0.12.2/package.tgz
+224 silly lockFile eeba413b-ode-modules-grunt-contrib-cssmin tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-cssmin
+225 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-cssmin /home/vagrant/.npm/eeba413b-ode-modules-grunt-contrib-cssmin.lock
+226 silly lockFile 13f81b62-ontrib-cssmin-0-12-2-package-tgz tar:///home/vagrant/.npm/grunt-contrib-cssmin/0.12.2/package.tgz
+227 verbose lock tar:///home/vagrant/.npm/grunt-contrib-cssmin/0.12.2/package.tgz /home/vagrant/.npm/13f81b62-ontrib-cssmin-0-12-2-package-tgz.lock
+228 verbose tar unpack /home/vagrant/.npm/grunt-contrib-imagemin/0.9.4/package.tgz
+229 silly lockFile 70b71a94-e-modules-grunt-contrib-imagemin tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-imagemin
+230 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-imagemin /home/vagrant/.npm/70b71a94-e-modules-grunt-contrib-imagemin.lock
+231 silly lockFile 41e8b3de-ntrib-imagemin-0-9-4-package-tgz tar:///home/vagrant/.npm/grunt-contrib-imagemin/0.9.4/package.tgz
+232 verbose lock tar:///home/vagrant/.npm/grunt-contrib-imagemin/0.9.4/package.tgz /home/vagrant/.npm/41e8b3de-ntrib-imagemin-0-9-4-package-tgz.lock
+233 verbose tar unpack /home/vagrant/.npm/grunt-autoprefixer/3.0.0/package.tgz
+234 silly lockFile ea418823--node-modules-grunt-autoprefixer tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-autoprefixer
+235 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-autoprefixer /home/vagrant/.npm/ea418823--node-modules-grunt-autoprefixer.lock
+236 silly lockFile 79db240c-t-autoprefixer-3-0-0-package-tgz tar:///home/vagrant/.npm/grunt-autoprefixer/3.0.0/package.tgz
+237 verbose lock tar:///home/vagrant/.npm/grunt-autoprefixer/3.0.0/package.tgz /home/vagrant/.npm/79db240c-t-autoprefixer-3-0-0-package-tgz.lock
+238 verbose tar unpack /home/vagrant/.npm/grunt/0.4.5/package.tgz
+239 silly lockFile 2d0416ff-themes-ionisx-node-modules-grunt tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt
+240 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt /home/vagrant/.npm/2d0416ff-themes-ionisx-node-modules-grunt.lock
+241 silly lockFile 4b1948f8-rant-npm-grunt-0-4-5-package-tgz tar:///home/vagrant/.npm/grunt/0.4.5/package.tgz
+242 verbose lock tar:///home/vagrant/.npm/grunt/0.4.5/package.tgz /home/vagrant/.npm/4b1948f8-rant-npm-grunt-0-4-5-package-tgz.lock
+243 verbose tar unpack /home/vagrant/.npm/grunt-jscs/1.6.0/package.tgz
+244 silly lockFile ec67485e-s-ionisx-node-modules-grunt-jscs tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-jscs
+245 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-jscs /home/vagrant/.npm/ec67485e-s-ionisx-node-modules-grunt-jscs.lock
+246 silly lockFile 1b2f2522-npm-grunt-jscs-1-6-0-package-tgz tar:///home/vagrant/.npm/grunt-jscs/1.6.0/package.tgz
+247 verbose lock tar:///home/vagrant/.npm/grunt-jscs/1.6.0/package.tgz /home/vagrant/.npm/1b2f2522-npm-grunt-jscs-1-6-0-package-tgz.lock
+248 verbose tar unpack /home/vagrant/.npm/load-grunt-tasks/3.1.0/package.tgz
+249 silly lockFile ace7a60c-sx-node-modules-load-grunt-tasks tar:///edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks
+250 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks /home/vagrant/.npm/ace7a60c-sx-node-modules-load-grunt-tasks.lock
+251 silly lockFile 514e6df4-ad-grunt-tasks-3-1-0-package-tgz tar:///home/vagrant/.npm/load-grunt-tasks/3.1.0/package.tgz
+252 verbose lock tar:///home/vagrant/.npm/load-grunt-tasks/3.1.0/package.tgz /home/vagrant/.npm/514e6df4-ad-grunt-tasks-3-1-0-package-tgz.lock
+253 verbose tar unpack /home/vagrant/.npm/grunt-contrib-jshint/0.11.2/package.tgz
+254 silly lockFile 6532e98e-ode-modules-grunt-contrib-jshint tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-jshint
+255 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-jshint /home/vagrant/.npm/6532e98e-ode-modules-grunt-contrib-jshint.lock
+256 silly lockFile cf1e6daa-ontrib-jshint-0-11-2-package-tgz tar:///home/vagrant/.npm/grunt-contrib-jshint/0.11.2/package.tgz
+257 verbose lock tar:///home/vagrant/.npm/grunt-contrib-jshint/0.11.2/package.tgz /home/vagrant/.npm/cf1e6daa-ontrib-jshint-0-11-2-package-tgz.lock
+258 verbose tar unpack /home/vagrant/.npm/grunt-contrib-watch/0.6.1/package.tgz
+259 silly lockFile a148d193-node-modules-grunt-contrib-watch tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-watch
+260 verbose lock tar:///edx/app/edxapp/themes/ionisx/node_modules/grunt-contrib-watch /home/vagrant/.npm/a148d193-node-modules-grunt-contrib-watch.lock
+261 silly lockFile 76c9e01d--contrib-watch-0-6-1-package-tgz tar:///home/vagrant/.npm/grunt-contrib-watch/0.6.1/package.tgz
+262 verbose lock tar:///home/vagrant/.npm/grunt-contrib-watch/0.6.1/package.tgz /home/vagrant/.npm/76c9e01d--contrib-watch-0-6-1-package-tgz.lock
+263 silly gunzTarPerm modes [ '755', '644' ]
+264 silly gunzTarPerm modes [ '755', '644' ]
+265 silly gunzTarPerm modes [ '755', '644' ]
+266 silly gunzTarPerm modes [ '755', '644' ]
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm modes [ '755', '644' ]
+269 silly gunzTarPerm modes [ '755', '644' ]
+270 silly gunzTarPerm modes [ '755', '644' ]
+271 silly gunzTarPerm extractEntry package.json
+272 silly gunzTarPerm extractEntry package.json
+273 silly gunzTarPerm extractEntry package.json
+274 silly gunzTarPerm extractEntry package.json
+275 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+276 silly gunzTarPerm extractEntry package.json
+277 silly gunzTarPerm extractEntry package.json
+278 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+279 silly gunzTarPerm extractEntry package.json
+280 silly gunzTarPerm extractEntry package.json
+281 silly gunzTarPerm extractEntry index.js
+282 silly gunzTarPerm extractEntry readme.md
+283 silly gunzTarPerm extractEntry README.md
+284 silly gunzTarPerm extractEntry CHANGELOG
+285 silly gunzTarPerm extractEntry README.md
+286 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+287 silly gunzTarPerm extractEntry LICENSE-MIT
+288 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 436, 420 ]
+289 silly gunzTarPerm extractEntry README.md
+290 silly gunzTarPerm extractEntry CHANGELOG
+291 silly gunzTarPerm extractEntry .npmignore
+292 silly gunzTarPerm extractEntry README.md
+293 silly gunzTarPerm extractEntry README.md
+294 silly gunzTarPerm extractEntry LICENSE-MIT
+295 silly gunzTarPerm extractEntry tasks/watch.js
+296 silly gunzTarPerm extractEntry tasks/lib/livereload.js
+297 silly gunzTarPerm extractEntry tasks/lib/taskrun.js
+298 silly gunzTarPerm extractEntry tasks/lib/taskrunner.js
+299 silly gunzTarPerm extractEntry README.md
+300 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+301 silly gunzTarPerm extractEntry CHANGELOG
+302 silly gunzTarPerm modified mode [ 'CHANGELOG', 436, 420 ]
+303 silly gunzTarPerm extractEntry README.md
+304 silly gunzTarPerm extractEntry LICENSE
+305 error Error: EPERM, chown '/edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json'
+305 error  { [Error: EPERM, chown '/edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json']
+305 error   errno: 50,
+305 error   code: 'EPERM',
+305 error   path: '/edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json',
+305 error   fstream_finish_call: 'chown',
+305 error   fstream_type: 'File',
+305 error   fstream_path: '/edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json',
+305 error   fstream_class: 'FileWriter',
+305 error   fstream_stack:
+305 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/writer.js:308:19',
+305 error      '/usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:143:7',
+305 error      'Object.oncomplete (evalmachine.<anonymous>:108:15)' ] }
+306 error Please try running this command again as root/Administrator.
+307 error System Linux 3.2.0-23-generic
+308 error command "/usr/bin/node" "/usr/bin/npm" "install"
+309 error cwd /edx/app/edxapp/themes/ionisx/templates
+310 error node -v v0.10.37
+311 error npm -v 1.4.28
+312 error path /edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json
+313 error fstream_path /edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json
+314 error fstream_type File
+315 error fstream_class FileWriter
+316 error fstream_finish_call chown
+317 error code EPERM
+318 error errno 50
+319 error stack Error: EPERM, chown '/edx/app/edxapp/themes/ionisx/node_modules/load-grunt-tasks/package.json'
+320 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/writer.js:308:19
+320 error fstream_stack /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:143:7
+320 error fstream_stack Object.oncomplete (evalmachine.<anonymous>:108:15)
+321 verbose exit [ 50, true ]

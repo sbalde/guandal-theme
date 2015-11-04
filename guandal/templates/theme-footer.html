@@ -1,0 +1,171 @@
+## mako
+<%! from django.utils.translation import ugettext as _ %>
+<%! from microsite_configuration.templatetags.microsite import platform_name %>
+<%namespace name='static' file='static_content.html'/>
+
+<footer>
+<div class="container footer">
+      
+    <div class="row site-map">
+
+        <div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-0 mini-logo-wrapper">
+            <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-md-9 col-md-offset-3 col-lg-5 col-lg-offset-4">
+                <img src="https://proversity-static-assets.s3.amazonaws.com/img/icon-200.png" alt="Proversity Logo" class="img-responsive prov-logo">
+            </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-8 col-md-9 map-wrapper">
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 map-contact">
+                <p class="map-title">Contact</p>
+                <ul class="map-list">
+                    <li class="map-li"><a href="/contact#UK">UK</a></li>
+                    <li class="map-li"><a href="/contact#USA">USA</a></li>
+                    <li class="map-li"><a href="/contact#Chile">Chile</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 map-company">
+                <p class="map-title">Company</p>
+                <ul class="map-list">
+                    <li class="map-li"><a href="/about">About</a></li>
+                    <li class="map-li"><a href="https://proversity.zendesk.com/hc/en-us">FAQ</a></li>
+                    <li class="map-li"><a href="/contact">Contact</a></li>
+                     <li class="map-li"><a href="#">Tour</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 map-connect">
+                <p class="map-title">Connect</p>
+                <ul class="map-list">
+                    <li class="map-li"><a href="mailto:andrew.clements@proversity.org?subject=Request Demo">Request a Demo</a></li>
+                    <li class="map-li"><a href="http://blog.proversity.org/">Blog</a></li>
+                    <li class="map-li"><a href="https://angel.co/proversity">Invest</a></li>
+                    <li class="map-li"><a href="http://workinstartups.com/job-board/jobs-at/proversityorg/">Careers</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr class="footer-rule">
+    
+    <div class="row social-links">
+            
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <p class="copy call">Be social</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 social-icons">
+                
+                <div class="icon-wrapper row1">
+                    <a href="https://www.linkedin.com/company/proversity-org" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </span>
+                   </a>
+                </div>
+                <div class="icon-wrapper row1">
+                    <a href="https://twitter.com/proversity_org" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="icon-wrapper row1">
+                    <a href="https://www.facebook.com/proversity.org" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="icon-wrapper row2">
+                    <a href="https://instagram.com/proversity_org" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-instagram fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="icon-wrapper row2">
+                    <a href="https://www.youtube.com/channel/UCCL1vT6toeLQVdxdYL8v2cQ" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-youtube-play fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 copyright-wrapper">
+                <p class="copy copyright">© 2015 Guandhal.com, all rights reserved.</p>
+                <ul>
+                    <li>
+                        <a href="http://learn.proversity.org/tos">Terms of Service</a> 
+                    </li>
+                    <li>
+                        <a href="http://learn.proversity.org/honor">Honor Code</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+   
+</div>
+</footer>
+
+<!--<footer>
+  
+<div class="footer-container">
+
+    <p>Test du footer</p>
+
+
+  </div>
+
+</footer>-->
+
+
+
+
+
+
+<!--<footer>
+  <div class="footer-container">
+    <ul class="links">
+      %if settings.MKTG_URL_LINK_MAP.get('ABOUT'):
+      <li>
+        <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a>
+      </li>
+      %endif
+      %if settings.MKTG_URL_LINK_MAP.get('FAQ'):
+      <li>
+        <a id="faq" href="${marketing_link('FAQ')}">${_("FAQ")}</a>
+      </li>
+      %endif
+      %if settings.MKTG_URL_LINK_MAP.get('CONTACT'):
+      <li>
+        <a id="contact" href="${marketing_link('CONTACT')}">${_("Contact")}</a>
+      </li>
+      %endif
+      %if settings.MKTG_URL_LINK_MAP.get('TOS'):
+      <li>
+        <a href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
+      </li>
+      %endif
+      %if settings.MKTG_URL_LINK_MAP.get('HONOR'):
+      <li>
+        <a href="${marketing_link('HONOR')}">${_("Honor Code")}</a>
+      </li>
+      %endif
+      %if settings.MKTG_URL_LINK_MAP.get('PRIVACY'):
+      <li>
+        <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+      </li>
+      %endif
+    </ul>
+    <p class="copyright">${_(u"© 2015 {platform_name}, some rights reserved.").format(platform_name=platform_name())}</p>
+    <div class="by-ionisx">
+      <a href="https://ionisx.com">
+        <img src="${static.url('themes/{theme_name}/images/logo-x-white.png'.format(theme_name=settings.THEME_NAME))}" alt="Theme by IONISx">
+      </a>
+    </div>
+  </div>
+</footer>-->
