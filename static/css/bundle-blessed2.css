@@ -55,6 +55,11 @@ input[type=email]:active+span:after,input[type=email]:focus+span:after,input[typ
 	color: #723147
 }
 
+.content-3-5 h3, .content-3-5 p {
+	color: #FFF
+}
+
+
 .view-login,.view-passwordreset,.view-register,body{
 	background-color:#f7f7f7
 }
